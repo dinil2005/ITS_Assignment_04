@@ -1,0 +1,42 @@
+section{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+}
+
+section>div{
+    position: relative;
+    color: white;
+    width: 300px;
+    background: purple;
+    height: 75px;
+    margin: 50px 0px 0px 0px;
+    box-shadow: rgba(142, 68, 173, 0.25) 0px 54px 55px, rgba(142, 68, 173, 0.12) 0px -12px 30px, rgba(142, 68, 173, 0.12) 0px 4px 6px, rgba(142, 68, 173, 0.17) 0px 12px 13px, rgba(142, 68, 173, 0.09) 0px -3px 5px;
+    right: 235px;
+    transition-duration: 1s;
+}
+
+section>div>h3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    left: 23px;
+}
+
+section>div>div{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    height: fit-content;
+    right: 23px;
+}
+
+div:hover{
+    right: 0;
+    cursor: pointer;
+}
